@@ -1,0 +1,494 @@
+* {
+    
+list-style: none;
+text-decoration: none;
+}
+body{
+    width: 1400px;;
+    background-color: white;
+        cursor: pointer;
+        border: 2px solid black;
+height: 2500px;
+}
+.conteiner{
+    width: 80%;
+    margin: auto;
+}
+#header_section{
+    width: 80%;
+    margin: auto;
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+
+}
+.header_nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 50px;
+    position: relative;
+    left: 500px;
+}
+.header_nav ul :nth-child(4){
+    width:146px;
+height:40px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+border-radius: 24px;
+border: 2px solid #2C2830;
+}
+.bac_color{
+    background-color: #2D2641;
+    width: 1400px;
+    height: 600px;
+}
+.imgline1{
+    width: 250px;
+height: 549px;
+padding-top: 350px  ;
+}
+.imgline2{
+    width: 450px;
+height: 80vh;
+transform: translate(700px, -399px );
+}
+
+hr{
+    position: absolute;
+width: 150px;
+height: 1px;
+left: 165px;
+top: 185px;
+
+}
+.human_h2{
+transform: translateY(-480px);
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 64px;
+letter-spacing: -1px;
+color: #FFFFFF;
+}
+.human_p{
+    transform: translateY(-500px);
+height: 84px;
+top: calc(50% - 84px/2 + 46px);
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+}
+.human_li{
+    transform: translateY(-480px);
+    Width:146px;
+Height:40px;
+color:white ;
+border: 2px solid white;
+border-radius: 24px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.family{
+    width: 500px;
+    height: 700px;
+    background-image: url(./Family.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+transform: translate(580px, -900px);
+}
+.main_div{
+   display: flex;
+   align-items:center;
+   justify-content: space-between;
+   width: 100%;
+   height:  474px;
+   
+   box-sizing: border-box;
+   
+}
+.snappy{
+    width: 350px;
+    height: 100vh;
+ transform: translateY(-600px); transform: translateY(-600px);
+}
+.affordable{
+    width: 350px;
+    height: 100vh;
+    transform: translateY(-600px);
+}
+.human{
+    width: 350px;
+    height: 100vh;
+    transform: translateY(-600px);
+}
+hr{
+ transform: translateY(800px);
+    width: 150px;
+    height: 1px;
+    background-color: #C396C6;
+}
+.dif{
+    transform: translateY(-800px);
+    font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 64px;
+}
+.btn1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+background-color: #96A9C6;
+border: none;
+}
+.btn2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #96A9C6;
+    border: none;
+}
+.btn3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #96A9C6;
+    border: none;
+}
+.bac_color2{
+    width: 100%;
+    height: 250px;
+    background-color: #2D2641;
+    transform: translateY(-750px);
+    text-align: center;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.bac_color2 h3{
+    font-family: 'DM Serif Display';
+    Display: flex;
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 56px;
+color: #FFFFFF;
+}
+.bacimg3{
+    width: 400px;
+    height: 400px;
+    transform: translate(670px, -1100px);
+}
+.bac_color2 li{ 
+    border: 2px solid white;
+    width: 150px;
+    height:25px;
+    align-items: center;
+    justify-content: center;
+ color: #FFFFFF;
+}
+
+/* main_finished */
+/* flutter_start */
+
+
+.flutter{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items:center ;
+    justify-content: space-around;
+    transform: translateY(-1125PX);
+}
+.h3_flutter{
+   transform: translate(240px, -1050PX);
+   font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 38px;
+letter-spacing: -0.388889px;
+}
+.hr{
+    width: 1000px;
+    height: 1px;
+    background-color: #DADADA;
+    transform: translateY(1950PX);
+opacity: 0.8;
+}
+.contact{
+    transform: translateY(-10px);
+}
+.others{
+    transform: translateY(-10px);
+}
+.flutter_ul1{
+    align-items: center;
+    justify-content: left;
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 1.5px;
+}
+.flutter_ul2{
+    align-items: center;
+    justify-content: left;
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 1.5px;
+}
+.flutter_ul3{
+    align-items: center;
+    justify-content: left;
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 1.5px;
+}
+.flutter_ul4{
+    align-items: center;
+    justify-content: left;
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 1.5px;
+}
+.our_company p{
+    opacity: 0.7;
+    padding-left: 35px;
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 1.5px;
+}
+.flutter_ul1{
+    align-items: center;
+    justify-content: left;
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 1.5px;
+}
+.our_company p{
+    opacity: 0.7;
+    padding-left: 35px;
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 1.5px;
+}
+.flutter_ul2{
+    align-items: center;
+    justify-content: left;
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 1.5px;
+}
+.help_me p{
+    opacity: 0.7;
+    padding-left: 35px;
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 1.5px;
+}
+.flutter_ul3{
+    
+    align-items: center;
+    justify-content: left;
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 1.5px;
+}
+.contact p{
+    opacity: 0.7;
+    padding-left: 35px;
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 1.5px;
+}
+.flutter_ul4{
+    align-items: center;
+    justify-content: left;
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 1.5px;
+}
+.others p{
+    opacity: 0.7;
+    padding-left: 35px;
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 1.5px;
+}
+
+/* insure_maket_finished */
+/* insure_reasponsive_start */
+
+@media screen and (max-width:375px) {
+   body{
+    margin-top: 0px;
+    flex-direction: column;
+        width: 375px;
+        background-color: white;
+            cursor: pointer;
+            border: none;
+    }
+    #header_section{
+            width: 375px;
+            margin: auto;
+        }
+         
+        .conteiner {
+            width: 327px;
+            margin: auto;
+        }
+        .header_nav{
+            justify-content: space-around;
+            transform: translateY(10px);
+            
+        }
+        .header_nav ul{
+          display: none;
+            
+        }
+        .bac_color{
+            width: 375px;
+            height: 500px;
+            margin-top: 600px;
+        }
+        .family{
+            width: 375px;
+height: 580px;
+transform: translate(-24px, -1440px);
+        }
+        hr{
+            display: none;
+        }
+        .human_h2{
+            text-align: center;
+            font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 48px;
+        }
+        .human_p{
+            
+            height: 130px;
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+        }
+        .human_li{
+          position: relative;
+          left: 70px;
+          top: 50px;
+width:146px;
+height:40px;
+        }
+        .dif{
+            text-align: center;
+            justify-content: center;
+        }
+        .bacimg{
+            width: 375px;
+             height: 500px;
+        }
+        .bacimg3{
+            display: none;
+        }
+        .bacimg2{
+            display: none;
+        }
+        .main_div{
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 70px;
+        }
+       .bac_color2{
+        
+            width: 100%;
+            height: 370px;
+            border-radius: 25px;
+            background-color: #2D2641;
+            transform: translateY(-400px);
+            text-align: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        
+       }
+       .h3_flutter{
+        transform: translate(170px, -250px);
+        justify-content: center;
+        font-family: 'DM Serif Display';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 28px;
+     line-height: 38px;
+     letter-spacing: -0.388889px;
+     }
+       .hr{
+        display: none;
+       }
+        .flutter{
+            width: 100%;
+            height: 400px;
+            gap: 50px;
+            align-items:center ;
+            justify-content: space-around;
+            transform: translateY(2PX);
+            flex-direction: column-reverse;
+            text-align: center;
+        }
+    }
+
+

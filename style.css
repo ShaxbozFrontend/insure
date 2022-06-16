@@ -1,0 +1,24 @@
+* {
+    
+list-style: none;
+text-decoration: none;
+}
+body{
+    background-color: white;
+        cursor: pointer;
+}
+.conteiner{
+    width: 80%;
+    margin: auto;
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+
+}
+.header_nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 50px;
+}
